@@ -1,0 +1,167 @@
+html,
+body {
+    height: calc(100%-124px);
+}
+
+.nvar-buttons {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nvr-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 120px;
+    margin: 4px;
+    color: #ede7f6;
+    background-color: #3f51b5;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    padding: 0.5rem;
+}
+.nvr-btn:hover {
+    background-color: #7986cb;
+}
+.nvr-btn:focus {
+    background-color: #5c6bc0;
+    outline: none;
+}
+
+.nvar-img-logo {
+    max-height: 109px;
+    max-width: 120px;
+    padding: 0.5rem;
+}
+.img-personal {
+    height: 28rem;
+    position: relative;
+}
+.section-catalog {
+    height: 28rem;
+    display: flex;
+    justify-content: center;
+}
+.section-contact {
+    height: 300px;
+    border-top: 1px solid #e57373;
+    background-color: #cfd8dc;
+}
+.container-cards {
+    width: 80%;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    display: flex;
+    justify-content:center;
+}
+
+.catalog-card {
+    display: flex;
+    float: left;
+    margin: 1rem;
+    display: flex;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 17.375rem;
+    height: 20rem;
+    flex-direction: column;
+    box-shadow: 10px 5px 5px #b0bec5;
+    border: solid #e57373 0.063rem;
+}
+.catalog-card-header {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid #e57373 0.063rem;
+}
+.catalog-card-body {
+    margin: 0.5rem;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.img-miniature {
+    border-radius: 0.5rem;
+    max-height: 90%;
+    max-width: 90%;
+}
+.offcanvas-end{
+    width: 161px;
+}
+.section-decorado{
+    border-top: 1px solid #e57373;
+    height: 28rem;
+    display: flex;
+    justify-content: center;
+}
+.section-orders{
+    border-top: 1px solid #e57373;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.admin-btn{
+    display: flex;
+    align-items: end;
+}
+/* .carousel-btn-left {
+    display: flex;
+    justify-content: center;
+    background-color: #78909c;
+    opacity: 0.5;
+    height: 260px;
+    align-items: center;
+    position: relative;
+    width: 50px;
+    outline: none;
+    border: 1px solid transparent;
+}
+.carousel-slide {
+    width: 100%;
+    height: calc(100% - 3.5rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img {
+    cursor: pointer;
+    max-height: 100%;
+    width: 520px;
+    outline: 0;
+}
+
+.carousel-btn-right {
+    display: flex;
+    justify-content: center;
+    background-color: #78909c;
+    opacity: 0.5;
+    height: 260px;
+    align-items: center;
+    width: 50px;
+    outline: none;
+    border: 1px solid transparent;
+}
+.carousel-btn-right:hover {
+    background-color: #cfd8dc;
+}
+.carousel-btn-right:focus {
+    background-color: #78909c;
+    outline: none;
+}
+.carousel-btn-left:hover {
+    background-color: #cfd8dc;
+}
+.carousel-btn-left:focus {
+    background-color: #78909c;
+    outline: none;
+} */
+/* .nvr-btn:active {
+    background-color: brown;
+}
+.nvr-btn:disabled {
+    background-color: yellow;
+} */
